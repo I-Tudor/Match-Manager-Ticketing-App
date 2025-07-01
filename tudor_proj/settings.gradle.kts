@@ -1,0 +1,1 @@
+rootProject.name = "tudor_proj"

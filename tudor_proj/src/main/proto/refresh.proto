@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "org.example.grpc";
+option java_multiple_files = true;
+option csharp_namespace = "TudorProject.Grpc";
+
+service RefreshService {
+  rpc SendRefresh (RefreshRequest) returns (RefreshReply);
+}
+
+message RefreshRequest {
+  string message = 1;
+}
+
+message RefreshReply {
+  string status = 1;
+}

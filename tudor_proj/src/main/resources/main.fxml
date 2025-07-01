@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.GUI.MainController">
+    <center>
+        <VBox spacing="10" alignment="CENTER" layoutX="50" layoutY="50">
+            <padding>
+                <Insets top="50" right="50" bottom="50" left="50"/>
+            </padding>
+            <Label text="Basketball Ticket System" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
+
+            <ListView fx:id="matchListView" prefHeight="200" prefWidth="300" />
+
+            <Label text="Customer Name"/>
+            <TextField fx:id="customerNameField" promptText="Enter customer name"/>
+
+            <Label text="Seats"/>
+            <TextField fx:id="seatsField" promptText="Enter number of seats"/>
+
+            <Button text="Sell Ticket" fx:id="sellTicketButton" />
+
+            <Button text="Logout" fx:id="logoutButton" />
+        </VBox>
+    </center>
+</BorderPane>
