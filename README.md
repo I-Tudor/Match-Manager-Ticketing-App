@@ -5,7 +5,7 @@ A full-stack application for managing sports matches and ticket sales. The syste
 ## Technologies Used
 
 ### Backend
-- Java 17
+- Java 21
 - JavaFX for desktop GUI
 - Hibernate ORM
 - MySQL Database
